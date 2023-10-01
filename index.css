@@ -1,0 +1,44 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(33, 35, 53);
+}
+
+
+
+#container{height: 400px;
+    width: 150px;
+    display: flex;
+    border: 5px solid black;
+    align-items: end;
+position: absolute;
+top: 10%;
+background-color: white;
+
+}
+    #battery{height: 0;
+        width:150px;
+animation: animation 6s 0s ease-out infinite normal;}
+    @keyframes animation{
+0%{background-color: rgb(255, 0, 0);height: 0px;
+
+
+}
+30%{background-color: rgb(255, 255, 0);
+
+
+}
+60%{background-color: rgb(154, 205, 50);
+
+
+}
+90%{background-color: rgb(0, 128, 0);
+}
+100%{background-color: rgb(0, 100, 0);
+    box-shadow: 0 0 5px rgb(0, 100, 0),
+    0 0 25px rgb(0, 100, 0),
+    0 0 50px rgb(0, 100, 0),
+    0 0 100px rgb(0, 100, 0);
+
+    height: 400px;} }
