@@ -4,7 +4,10 @@ justify-content: center;
 align-items: center;
 background-color: rgb(33, 35, 53);
 }
-
+#start{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
 
 
 #container{height: 400px;
@@ -15,11 +18,15 @@ background-color: rgb(33, 35, 53);
 position: absolute;
 top: 10%;
 background-color: white;
+margin-top: 80px;
 
 }
+#start{
+    height: 40px;
+    width: 100px;
+}
     #battery{height: 0;
-        width:150px;
-animation: animation 6s 0s ease-out infinite normal;}
+        width:150px;}
     @keyframes animation{
 0%{background-color: rgb(255, 0, 0);height: 0px;
 
