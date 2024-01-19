@@ -33,8 +33,11 @@ border-radius: 20px;
     margin-top: 60px;
     margin-bottom: 40px;
 }
-    #battery{height: 0;
-        width:150px;}
+    #battery{
+        height: 0;
+        width:150px;
+    }
+
     @keyframes animation{
 0%{background-color: rgb(255, 0, 0);height: 0px;
 
