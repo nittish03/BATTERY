@@ -2,16 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS level-2</title>
-    <link rel="stylesheet" href="./index.css">
+    <title>Battery Simulation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<div id="container">
-<div id="battery"></div>
-</div>
-<button id="start">START</button>
-<script src="index.js"></script>
+    <div class="wrapper">
+        <h1>Battery Simulation</h1>
+        <div id="container">
+            <div id="battery">
+                <div class="battery-level"></div>
+            </div>
+        </div>
+        <button id="start">START</button>
+        <p id="battery-status">Battery Status: Idle</p>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
